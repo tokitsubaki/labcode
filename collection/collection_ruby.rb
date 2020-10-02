@@ -272,6 +272,6 @@ puts r # -> true
 # indexを使ったArrayの検索
 a = ["Hello", "World", "Ruby"]
 r = a.index("Ruby")
-puts r # -> true
+puts r # -> 2
 
 
