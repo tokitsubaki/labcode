@@ -1,0 +1,14 @@
+{
+  "string": "文字列",
+  "int": 2020,
+  "bool": true,
+  "null": null,
+  "array": [
+    {"no": 1, "name": "JavaScript"},
+    {"no": 2, "name": "Python"}
+  ],
+  "object": {
+    "no": 3,
+    "name": "Java"
+  }
+}

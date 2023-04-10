@@ -1,3 +1,5 @@
+import sun.text.normalizer.UCharacter.NumericType;
+
 public class ControlJava {
     public static void main(String[] args) {
 
@@ -10,6 +12,17 @@ public class ControlJava {
         } else {
             System.out.println("a と b は同一");
         }
+
+        int n = 10;
+        if (1 <= n && n <= 10) {
+            System.out.println("nは1から10の範囲");
+        } else if (11 <= n && n <= 20) {
+            System.out.println("nは11から20の範囲");
+        } else {
+            System.out.println("それ以外");
+        }
+
+        int result = a < b ? "a より b の方が大きい" : "b より a の方が大きいか同一";
 
 
         System.out.println("------------------------------------------");

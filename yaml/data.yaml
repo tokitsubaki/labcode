@@ -1,0 +1,12 @@
+string: 文字列
+int: 2020
+bool: true
+null: null
+array:
+- index: 1
+  name: JavaScript
+- index: 2
+  name: Python
+object:
+  index: 3
+  name: Java

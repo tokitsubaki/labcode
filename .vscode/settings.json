@@ -1,0 +1,9 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "json/libs/gson-2.8.6.jar",
+        "json/libs/jackson-annotations-2.11.3.jar",
+        "json/libs/jackson-core-2.11.3.jar",
+        "json/libs/jackson-databind-2.11.3.jar"
+    ]
+}

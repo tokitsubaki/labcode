@@ -4,7 +4,7 @@ function main() {
         throwTestException();
         console.log("after exception.");
     } catch (error) {
-        console.error(error.stack);
+        console.error(error);
     } finally {
         console.log("finally.");
     }
@@ -12,6 +12,7 @@ function main() {
 
 function throwTestException() {
     console.log("before throw.");
+    throw 1;
     throw Error("test error.");
     console.log("after throw.");
 }
